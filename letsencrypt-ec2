@@ -1,3 +1,7 @@
-cd /home/ubtuntu
-wget https://dl.eff.org/certbot-autochmod a+x certbot-auto
-./certbot-auto certonly --standalone -d xyz.yourdomain.com
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install python-certbot-nginx
+
+sudo certbot — nginx -d bear.dating -d www.bear.dating
