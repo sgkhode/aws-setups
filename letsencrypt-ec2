@@ -1,0 +1,3 @@
+cd /home/ubtuntu
+wget https://dl.eff.org/certbot-autochmod a+x certbot-auto
+./certbot-auto certonly --standalone -d xyz.yourdomain.com
